@@ -1,9 +1,9 @@
 .post-container {
-    width:2000px;
-	height:600px;
-	margin:10px;
-	padding-left: 100px;
-	padding-top: 50px;
+    width:50%;
+	height:40%;
+	margin:0.1vw;
+	padding-left: 1vw;
+	padding-top: 0.5vw;
 	box-sizing: border-box;
 
     background: rgb(63, 5, 188);
@@ -21,14 +21,14 @@
 
 .post-container #title {
  -webkit-text-fill-color: aliceblue;
- font-size: 100px;
+ font-size: 2vw;
  font-family: Poppins;
- margin: 10px;
+ margin: 0.1vw;
 }
 
 .post-container #content {
 	-webkit-text-fill-color: rgb(209, 209, 209);
-	font-size: 60px;
+	font-size: 1vw;
 	font-family: Poppins;
-	margin: 10px;
+	margin: 0.1vw;
 }
