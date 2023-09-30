@@ -4,27 +4,41 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <title>Catniped - Home</title>
+    <title>ODPOCITAVANIE DO VOLIEB</title>
   </head>
-  <body style="background-color: rgb(82, 82, 138); margin: 0 0 0 0;">
+  <body style="background-color: rgb(207, 176, 222); margin: 0 0 0 0;">
+    <h2>Koniec moratoria/vysledky volieb o:</h2>
+    <h1 id="timer"></h1>
 
-    <div class="navbar">
-      <a class="active" href="index.html">Homepage</a>
-      <a href="blog.html">Blog</a>
-      <a href="projects.html">Projects</a>
-    </div>
-    
-    <div style="display: flex; align-items: center; margin-left: 10%; margin-top: 10%;">
-        <p class="title" style="margin-right: 0.5vw; margin-bottom: 0; margin-top: 0;">Hi, im Catniped</p>
-        <img class="image1" style="margin-bottom: 0;" src="https://cdn.discordapp.com/attachments/1117747399356583989/1129380857132625980/Untitled37_20230625230043.png" alt="My pfp"> 
-    </div>
-    <p class="subtext" style="margin-left: 10%; margin-top: 0.1svw;">this website was NOT tested on anything other than my ultrawide, so itll propably be bonk</p>
-    <br>
-
-    <hr class="divider1">
-
-    <center>
-        <p class="subtext">bottom text</p>
-    </center>
+    <script>
+      // Set the date we're counting down to
+      var countDownDate = new Date("Sep, 30 2023 22:45:00").getTime();
+      
+      // Update the count down every 1 second
+      var x = setInterval(function() {
+      
+        // Get today's date and time
+        var now = new Date().getTime();
+      
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
+      
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      
+        // Display the result in the element with id="demo"
+        document.getElementById("timer").innerHTML = days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+      
+        // If the count down is finished, write some text
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("timer").innerHTML = "MORATORIUM KONCI";
+        }
+      }, 1000);
+      </script>
   </body>
 </html>
