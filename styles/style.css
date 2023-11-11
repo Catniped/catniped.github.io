@@ -33,6 +33,21 @@ a {
 	box-shadow: 4px 4px 12px rgba(0,0,0,0.2);
 }
 
+.image2 {
+	height: 50vw;
+	border-radius: 12px;
+	box-shadow: 4px 4px 12px rgba(0,0,0,0.2);
+	object-fit: contain;
+}
+
+.image3 {
+	height: 30vw;
+	border-radius: 15px;
+	box-shadow: 4px 4px 12px rgba(0,0,0,0.2);
+	object-fit: contain;
+	margin-left: 10vw;
+}
+
 .divider1 {
 	margin-top: 3svw;
 	margin-bottom: 3svw;
