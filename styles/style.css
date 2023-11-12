@@ -66,6 +66,14 @@ a {
 	margin-left: 10vw;
 }
 
+.image4 {
+	align-items: center;
+	width: 15vw;
+
+	margin-top: 1vw;
+	object-fit: contain;
+}
+
 .divider1 {
 	margin-top: 3svw;
 	margin-bottom: 3svw;
