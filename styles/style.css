@@ -52,7 +52,7 @@ a {
 }
 
 .image2 {
-	height: 50vw;
+	height: 30vw;
 	border-radius: 12px;
 	box-shadow: 4px 4px 12px rgba(0,0,0,0.2);
 	object-fit: contain;
@@ -74,12 +74,27 @@ a {
 	object-fit: contain;
 }
 
+.image5 {
+	width: 40vw;
+	margin-left: 1vw;
+	margin-right: 1vw;
+	margin-top: 3vw;
+	border-radius: 12px;
+	box-shadow: 4px 4px 12px rgba(0,0,0,0.2);
+	object-fit: contain;
+}
+
 .divider1 {
 	margin-top: 3svw;
 	margin-bottom: 3svw;
 	border-color: rgb(228, 211, 246);
 	border-style: solid;
 	width: 95%;
+}
+
+.links a {
+	display: inline-block;
+	margin-top: 0.5vw
 }
 
 /* Top navbar styles */
