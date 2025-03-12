@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&family=Space+Mono&display=swap" rel="stylesheet">
+    <title>Catniped - Blog</title>
+    <meta content="powder metallurgy" property="og:title" />
+    <meta content="powder metallurgy process devices i design" property="og:description" />
+    <meta content="https://catniped.xyz/posts/atomization.html" property="og:url" />
+    <meta content="image" property="og:image" />
+    <meta content="#B174F7" data-react-helmet="true" name="theme-color" />
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+  </head>
+  <body style="background-color: rgb(82, 82, 138); margin: 0 0 0 0;">
+
+    <div class="navbar">
+      <a href="../index.html">Homepage</a>
+      <a class="active" href="../blog.html">Blog</a>
+      <a href="../projects.html">Projects</a>
+    </div>
+    
+    <div style="display: flex; align-items: center; margin-left: 10%; margin-top: 5%;">
+        <p class="title" style="margin-right: 0.5vw; margin-bottom: 0; margin-top: 0;">powder metallurgy equipment</p>
+    </div>
+    <p class="subtext" style="margin-left: 10%; margin-top: 0.1svw;">ball mills, tumblers, chemicals, furnaces and plenty more!</p>
+    <p class="content">the process of metal 3D printing involves many steps and devices. some tasks are: mixing, grinding powder to smaller sizes (ball mills), part finishing (tumblers, chemical polishing, sanding), sintering (furnaces), ...
+    <br><br>in order to perform this process, i need to build machines to carry out these steps. a ball mill is crucial, and can usually also be used as a tumbler aswell. this is a pretty simple device, consisting of a cylindrical container for the powder and milling media, aswell as a motor to spin the container. after some inspiration from seeing a washing machine converted into a part dyer for MJF parts at TUKE, i have decided to combine a few steps into 1 machine, by doing a very simmiliar thing. i plan on attaching a VFD to a washing machine motor, to control and program the rpm. after that, i would add an extra internal drum to contain powder for ball milling/tumbling. this way, this machine could be used for mixing, milling, tumbling, chemical debinding, or other finishing processes.
+    <br><br>sintering is another major concern. it is quite simple to build a furnace that heats up to 1250C, however many materials i intend on printing with have a much higher sintering temperature than that (SiC and certain steel alloys sinter at >1400C). going past this point gets very expensive, with expensive materials required for the heaters, or specialized atmospheres being required. an incredible technique called microwave sintering could solve this, being an incredibly cheap way to achieve incredible temperatures. it is however difficult to control, which is why for materials such as aluminum that sinter at lower temperatures a normal furnace will likely be used. an even bigger concern is the atmosphere during sintering, as some materials may require an inert atmosphere in the chamber to achieve good results. i am currently thinking about using a custom tube furnace, which lets us create this atmosphere the most easily, however i am still working on this part.
+    </p>
+    <br>
+
+    <hr class="divider1">
+
+    <center>
+        <p class="subtext">bottom text</p>
+    </center><br>
+  </body>
+</html>

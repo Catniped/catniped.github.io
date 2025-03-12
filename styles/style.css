@@ -143,7 +143,7 @@ a {
     background: rgb(63, 5, 188);
 	border-style: solid;
 	border-color: rgb(106, 108, 249);
-	border-radius: 2vw;
+	border-radius: 1vw;
 	box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19); 
 
 	display: block;
@@ -165,4 +165,29 @@ a {
 	font-size: 1vw;
 	font-family: Poppins;
 	margin: 0.1vw;
+}
+
+
+.post-category {
+	-webkit-text-fill-color: rgb(209, 209, 209);
+	font-family: Poppins;
+	font-size: 2vw;
+
+    width:50%;
+	margin:0.1vw;
+	box-sizing: border-box;
+
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+	cursor: pointer;
+}
+
+
+.divider2 {
+	margin-bottom: 1.5svw;
+	border-color: rgb(209, 209, 209);
+	border-style: solid;
+	width: 55%;
 }
